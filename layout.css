@@ -22,6 +22,10 @@
 	justify-content: flex-end;
 }
 
+.row-justify-start {
+	justify-content: flex-start;
+}
+
 .row-justify-center {
 	justify-content: center;
 }
@@ -42,6 +46,10 @@
 
 .row-align-end {
 	align-items: flex-end;
+}
+
+.row-align-start {
+	align-items: flex-start;
 }
 
 .row-align-center {
