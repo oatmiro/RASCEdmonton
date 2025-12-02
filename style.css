@@ -8,13 +8,15 @@
 	overflow: visible;
 }
 
+
+/*
 .position-relative {
     position: relative;
 }
 
 .overflow-hidden {
     overflow: hidden;
-}
+} */
 /*nav*/
 
 header {
@@ -61,6 +63,10 @@ footer {
     border-radius: 30px 30px 0px 0px;
 }
 
+.submission-background {
+    background-color: #D9D9EB;
+}
+
 /* fonts */
 
 /*font */
@@ -80,6 +86,7 @@ footer {
     padding: 0%;
 }
 
+
 .blue-h2 {
     font-family: "Roboto Mono", sans-serif;
     font-size: 48px;
@@ -93,6 +100,7 @@ footer {
     font-size: 32px;
     font-weight: bold;
     color: #1818D4;
+    text-decoration: none;
 }
 
 .updates-h3 {
@@ -216,4 +224,21 @@ footer {
 
 .sixteen {
     font-size: 16px;
+}
+
+/* padding */
+
+.padding-about {
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.padding-join {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.padding {
+    padding-left: 30px;
+    padding-right: 30px;
 }
