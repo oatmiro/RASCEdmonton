@@ -6,6 +6,7 @@
     background-attachment: fixed;
     position: relative;
 	overflow: visible;
+    display: flex;
 }
 
 
@@ -56,6 +57,10 @@ footer {
 .join-background {
     background-color: #D9D9EB;
     border-radius: 0px 0px 30px 30px;
+}
+
+.flex {
+    display: flex;
 }
 
 .two-join-background {
@@ -121,6 +126,12 @@ footer {
     font-size: 16px;
     color:#000036;
     font-weight: bold;
+}
+
+.articles-text {
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    font-size: 40px;
+    color: #1818D4;
 }
 
 .join-h1 {
@@ -278,8 +289,32 @@ h1 {
     padding-top: 30px;
 }
 
+
+.contact-card-text {
+   
+    border-bottom: 1px solid #000036;
+}
+
+.contact-card {
+    width: 292px;
+    height: 385px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(168, 192, 255, 0.3);
+}
+
+.articles-card {
+    width: 232px;
+    height: 152px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(168, 192, 255, 0.3);
+    display: flex;
+
+}
+
 .newsletter-line {
     padding-bottom: 30px;
     border-bottom: 1px solid #000036;
 }
+
 
