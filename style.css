@@ -347,7 +347,7 @@ h1 {
 .contact-newsletter-hero {
     background-image: url(images/contactnewsletter.png);
     height: 329px;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
@@ -362,4 +362,54 @@ h1 {
     padding: 20px;
     border-radius: 30px 30px 0px 0px;
     display: flex;
+}
+
+
+
+@media screen and (max-width: 478px) {
+
+
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+
+	.menu {
+		display: none;
+	}
+
+    .footer-nav-web {
+        display: none;
+    }
+
+    .footer-nav-mobile {
+    display: flex;
+}
+
+	.cta-wrap {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+
+
+	.footer-logo {
+		display: none;
+	}
+
+	.footer-meta {
+		margin: 0px;
+	}
+
+
 }
