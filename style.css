@@ -16,8 +16,8 @@ body {
 }
 
 .hamburger {
-	width: 30px;
-	height: 20px;
+	width: 60px;
+	height: 40px;
 	display: none;
 	flex-direction: column;
 	justify-content: space-between;
@@ -42,6 +42,10 @@ body {
 }
 
 .mobile-center {
+    display: none;
+}
+
+.mobile {
     display: none;
 }
 
@@ -436,7 +440,7 @@ h1 {
     .RASCEdmonton {
         font-family: "Roboto", sans-serif;
         color:#F7F7FF;
-        font-size: 70px;
+        font-size: 65px;
         padding: 0%;
     }
 
@@ -480,4 +484,15 @@ h1 {
         padding-top: 30px;
     }
 
+    .padding-left-mobile {
+        padding-left: 30px;
+    }
+
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
 }

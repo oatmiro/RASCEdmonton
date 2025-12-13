@@ -226,4 +226,16 @@
 	padding-bottom: 24px;
 }
 
+	.row-mobile {
+		display: flex;        
+		flex-wrap: wrap;           
+		align-items: stretch;    
+		margin: 0px -20px;
+	}
+
+	.row-align-center-mobile {
+		align-items: center;
+	}
+
+	
 }
