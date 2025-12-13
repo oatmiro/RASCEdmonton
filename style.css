@@ -36,6 +36,16 @@ body {
 	align-items: center;
 }
 
+
+.mobile-flexbox {
+    display: none;
+}
+
+.mobile-center {
+    display: none;
+}
+
+
 /*
 .position-relative {
     position: relative;
@@ -395,6 +405,10 @@ h1 {
     justify-content: flex-end;
 }
 
+.see-all-web {
+        display: none;
+    }
+
 
 @media screen and (max-width: 478px) {
 
@@ -446,14 +460,16 @@ h1 {
 		display: flex;
 	}
 
+    .see-all-web {
+        display: none;
+    }
 
-	.footer-logo {
-		display: none;
-	}
+    .see-all-mobile {
+        display: flex;
+    }
 
-	.footer-meta {
-		margin: 0px;
-	}
-
+    .padding-top-newsletter-mobile {
+        padding-top: 30px;
+    }
 
 }
